@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.KeySetSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166136aaca3" ></w:Config>
+	<e:Rect id="RectBj" width="1920" height="1080" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0.3" enabled="true" alpha="1" strokeColor="16711680" fillColor="0"/>
+	<e:Group id="keySetGroup" horizontalCenter="0" bottom="0">
+		<e:Image source="keyset-mask_png" x="0" y="0" anchorOffsetX="0" width="502"/>
+		<e:Button id="keyRevise" label="" x="133" y="216">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="keyset-revise_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="keyOk" label="" x="221" y="217">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ok_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="key0" source="key0_png" x="388.3" y="120"/>
+		<e:Image id="key1" source="key1_png" x="24.5" y="27"/>
+		<e:Image id="key2" source="key2_png" x="113.95" y="26"/>
+		<e:Image id="key3" source="key3_png" x="205.5" y="26"/>
+		<e:Image id="key4" source="key4_png" x="296.25" y="27"/>
+		<e:Image id="key5" source="key5_png" x="388.3" y="26"/>
+		<e:Image id="key6" source="key6_png" x="21.5" y="121"/>
+		<e:Image id="key7" source="key7_png" x="114.5" y="120"/>
+		<e:Image id="key8" source="key8_png" x="206" y="121"/>
+		<e:Image id="key9" source="key9_png" x="297.5" y="120"/>
+	</e:Group>
+</e:Skin>

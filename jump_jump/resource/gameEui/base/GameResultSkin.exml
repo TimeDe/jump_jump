@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.GameResultSkin"
+	 width="640"
+	height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" xmlns:ns1="*">
+	<w:Declarations>
+		<tween:TweenGroup id="enterAction">
+			<tween:TweenItem target="{topGroup}">
+				<tween:Set>
+				<tween:props>
+					<e:Object alpha="{1}" scaleX="{1.2}" scaleY="{1.2}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="300">
+				<tween:props>
+					<e:Object scaleX="{1}" scaleY="{1}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{replay_btn}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0}" scaleY="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:Wait duration="300"/>
+				<tween:Set/>
+				<tween:To duration="200">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Rect width="640" height="1136" x="0" y="0" fillAlpha="0.6" fillColor="0x000000"/>
+
+	<e:Group id="resultGroup" width="640" height="1136" x="0" y="0">
+		<e:Group id="backGroup" width="640" height="1136" x="0" y="0" scaleX="1" scaleY="1">
+		</e:Group>
+		<e:Group id="titleGroup" width="640" height="1136" x="0" y="-121.21" scaleX="1" scaleY="1">
+
+			<e:Image horizontalCenter="2.5" verticalCenter="86" source="light_0_png" visible="false"/>
+			<e:Group id="topGroup" width="640" height="1136" x="960" y="540" scaleX="1" scaleY="1" anchorOffsetX="960" anchorOffsetY="540">
+			<e:Image id="topIcon" horizontalCenter="7" x="719.0000000000001" scaleX="1" scaleY="1" bottom="210" source="topIcon_png" visible="false"/>
+			<e:Group id="topGroup0" width="500" height="100" scaleX="1" scaleY="1" verticalCenter="140" horizontalCenter="-6" visible="false">
+				<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+				</e:layout>
+			</e:Group>
+				<e:Image source="right_title_bg_png" x="842" y="829.27" visible="false"/>
+				<e:Label id="rightCountLabel" text="10" x="952" y="831.27" anchorOffsetX="0" width="66" anchorOffsetY="0" height="60" size="46" fontFamily="FZCuYuan-M03S" textAlign="center" verticalAlign="middle" textColor="0xa753cc" visible="false"/>
+			</e:Group>
+			<e:Image id="rightBaseTitle" source="result_title_png" x="963.82" y="620.9" scaleX="1" scaleY="1" anchorOffsetX="275.5" anchorOffsetY="37.5" visible="false"/>
+			<e:Image id="numberImage" source="yellow_num_1_png" horizontalCenter="-36" verticalCenter="82" x="910" y="593" scaleX="1" scaleY="1" anchorOffsetX="14" anchorOffsetY="29" visible="false"/>
+		</e:Group>
+		<e:Image id="replay_btn" y="926.42" scaleX="1" scaleY="1" anchorOffsetX="178" anchorOffsetY="78" source="try_again_png" horizontalCenter="0" x="811.6666666666667" visible="false"/>
+	</e:Group>
+</e:Skin>
