@@ -1,41 +1,16 @@
 {
 	"initial": [
-		"libs/modules/egret/egret.js",
-		"libs/modules/egret/egret.web.js",
-		"libs/modules/eui/eui.js",
-		"libs/modules/assetsmanager/assetsmanager.js",
-		"libs/modules/tween/tween.js",
-		"libs/modules/dragonBones/dragonBones.js",
-		"libs/modules/promise/promise.js",
-		"libs/modules/mouse/mouse.js"
+		"js/egret.min_40e267ce.js",
+		"js/egret.web.min_29018c52.js",
+		"js/eui.min_9cf92601.js",
+		"js/assetsmanager.min_e1440ef3.js",
+		"js/tween.min_6c5a88f9.js",
+		"js/dragonBones.min_6252b9c4.js",
+		"js/promise.min_83a6a5d.js",
+		"js/mouse.min_c171ee8c.js"
 	],
 	"game": [
-		"bin-debug/common/EventHandler.js",
-		"bin-debug/base/MathUtil.js",
-		"bin-debug/GameIndex.js",
-		"bin-debug/GamePlay.js",
-		"bin-debug/Main.js",
-		"bin-debug/PathController.js",
-		"bin-debug/Platform.js",
-		"bin-debug/ThemeAdapter.js",
-		"bin-debug/base/DrawUtil.js",
-		"bin-debug/base/GameResult.js",
-		"bin-debug/base/GameSetting.js",
-		"bin-debug/base/Keyset.js",
-		"bin-debug/base/LoadingUI.js",
-		"bin-debug/GameDevice.js",
-		"bin-debug/base/SoundBtn.js",
-		"bin-debug/base/StarItem.js",
-		"bin-debug/base/StarProgress.js",
-		"bin-debug/base/XDFLogoComponent.js",
-		"bin-debug/common/BezierFactory.js",
-		"bin-debug/AssetAdapter.js",
-		"bin-debug/common/GameDefines.js",
-		"bin-debug/common/Global.js",
-		"bin-debug/common/Helper.js",
-		"bin-debug/game/GameData.js",
-		"bin-debug/manager/DbFactory.js",
-		"bin-debug/manager/GameSoundController.js",
-		"bin-debug/manager/TimeManager.js"
+		"js/default.thm_19eab074.js",
+		"js/main.min_b687642b.js"
 	]
 }

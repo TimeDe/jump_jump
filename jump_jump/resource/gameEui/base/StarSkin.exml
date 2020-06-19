@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="skins.StarSkin" width="80" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image id="bg" verticalCenter="0" horizontalCenter="0" source="p_star_gray_png"/>
-	<e:Image id="star" source="p_star_yellow_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
-</e:Skin>
